@@ -1,4 +1,6 @@
+import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.List;
 
 public class partitionString {
     public static void main(String []args){
@@ -17,12 +19,7 @@ public class partitionString {
                 set.clear();
                 count++;
             }
-
-            set.add(str.charAt(i));
-            i++;
-
         }
-
         return count+1;
     }
 }
