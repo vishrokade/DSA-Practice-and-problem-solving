@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Objects;
 
 public class SubsetOfArray {
     public static void main(String []args){
@@ -10,7 +11,7 @@ public class SubsetOfArray {
         List<List<Integer>> ans = subsetWithoutDuplicate(arr);
 
         for(List<Integer> list : ans){
-                System.out.println(list);
+            System.out.println(list);
         }
     }
 
