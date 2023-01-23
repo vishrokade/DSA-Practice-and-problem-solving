@@ -3,6 +3,14 @@ public class Ascii {
         char ch = 'a';
         System.out.println((int)( ch+0));
 
+        String a = "aAa";
+        if (a.charAt(0) < a.charAt(1)){
+            System.out.println(true);
+        }
+        else {
+            System.out.println(false);
+        }
+
         String[] strs = {"zyx","wvu","tsr"};
         System.out.println(find(strs));
     }
