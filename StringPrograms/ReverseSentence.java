@@ -6,7 +6,6 @@ public class ReverseSentence {
     public static void main(String[] arg){
 
         String str = "My name is vishal";
-
         String ans = reverse(str);
         System.out.println(ans);
 
