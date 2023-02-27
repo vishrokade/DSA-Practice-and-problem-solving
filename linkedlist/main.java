@@ -1,17 +1,18 @@
 package linkedlist;
 
+import org.w3c.dom.*;
+
 public class main {
-
     public static void main(String[] args){
-       // LL list = new LL(); //create empty list (empty constructor)
+        LL list = new LL(); //create empty list (empty constructor)
 
-       /* list.insertfirst(10);
+        list.insertfirst(10);
         list.insertfirst(20);
         list.insertfirst(30);
         list.insertfirst(40);
         list.display();
 
-        list.insertlast(50);
+        /*list.insertlast(50);
         list.display();
 
         list.insert(80 , 3);
@@ -47,16 +48,20 @@ public class main {
 
        */
 
-        CLL list = new CLL();
-        list.insert(10);
-        list.insert(20);
-        list.insert(30);
-        list.insert(40);
+//        CLL list = new CLL();
 
-        list.display();
+//        list.insert(10);
+//        list.insert(20);
+//        list.insert(30);
+//        list.insert(40);
+//
+//        list.display();
+//
+//        list.delete(30);
+//
+//        list.display();
 
-        list.delete(30);
 
-        list.display();
     }
+
 }
