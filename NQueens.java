@@ -3,7 +3,8 @@ public class NQueens {
 
         int n = 4;
         boolean[][] board = new boolean[n][n];
-        System.out.println(queens(board,0));
+        //System.out.println(queens(board,0));
+        queens(board,0);
     }
 
     static int queens(boolean[][] board, int row){  //every time column is starting from the 0 hence we are not passing it
