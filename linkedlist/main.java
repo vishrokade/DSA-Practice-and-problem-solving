@@ -6,10 +6,10 @@ public class main {
     public static void main(String[] args){
         LL list = new LL(); //create empty list (empty constructor)
 
-        list.insertfirst(10);
-        list.insertfirst(20);
-        list.insertfirst(30);
-        list.insertfirst(40);
+        list.insertlast(10);
+        list.insertlast(20);
+        list.insertlast(30);
+        list.insertlast(40);
         list.display();
 
         /*list.insertlast(50);
