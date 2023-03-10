@@ -49,7 +49,7 @@ public class main {
        */
 
 //        CLL list = new CLL();
-
+//
 //        list.insert(10);
 //        list.insert(20);
 //        list.insert(30);
