@@ -5,7 +5,7 @@ public class subsequence {
     public static void main(String []args){
        // skip("","abc");
 
-        System.out.println(subSeqRet("","abc"));
+        System.out.println(subSeqRet("","abcd"));
     }
 
     static void skip(String p, String up){
@@ -35,5 +35,49 @@ public class subsequence {
 
         left.addAll(right);
         return left;
+    }
+
+    static boolean mapped(String str){
+        int sum = 0;
+        int n = str.length();
+
+        for (int i = 0; i < n; i++) {
+            sum += check(str.charAt(i));
+        }
+        if (sum % n == 0){
+            return true;
+        }
+        return false;
+    }
+
+    static int check(char ch){
+
+        if (ch == 'a' || ch == 'b'){
+            return 1;
+        }
+        if (ch == 'f' || ch =='g' || ch == 'h'){
+            return 3;
+        }
+        if (ch == 'e' || ch =='c' || ch == 'd'){
+            return 2;
+        }
+        if (ch == 'i' || ch =='j' || ch == 'k'){
+            return 4;
+        }
+        if (ch == 'l' || ch =='m' || ch == 'n'){
+            return 5;
+        }
+        if (ch == 'o' || ch =='p' || ch == 'q'){
+            return 6;
+        }
+        if (ch == 'r' || ch =='s' || ch == 't'){
+            return 7;
+        }
+        if (ch == 'u' || ch =='v' || ch == 'w'){
+            return 8;
+        }if (ch == 'x' || ch =='y' || ch == 'z'){
+            return 9;
+        }
+        return 0;
     }
 }

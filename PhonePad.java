@@ -5,7 +5,7 @@ public class PhonePad {
         pad("","12");
        // ArrayList list = padReturn("","23");
         //System.out.println(list);
-        System.out.println(solve("","89"));
+       // System.out.println(solve("","89"));
     }
 
     static void pad(String p,String up){
