@@ -3,10 +3,10 @@ import java.util.ArrayList;
 public class MazeProblem {
     public static void main(String []args){
 
-        System.out.println(maze(3,3));
+        System.out.println(maze(3,7));
         mazePath("",3,3);
 
-        System.out.println(mazePathRet("",3,3));
+        System.out.println(mazePathRet("",3,7));
 
         System.out.println(mazeDiagonal("",3,3));
 

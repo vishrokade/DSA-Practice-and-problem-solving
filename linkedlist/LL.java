@@ -37,6 +37,8 @@ public class LL {
     }
 
     public void insertlast(int val){
+        //if there is no tail node then we have to traverse each time till the end of the list and then
+        // have to insert at the end
         Node node = new Node(val);
         tail.next = node;
         tail = node;
@@ -125,9 +127,4 @@ public class LL {
         System.out.println("END");
 
     }
-
-
-
-
-
 }
