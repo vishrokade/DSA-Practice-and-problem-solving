@@ -21,7 +21,8 @@ public class PermutationReturn {
     static void backTrack(List<List<Integer>> list,List<Integer> tempList,int[] nums){
 
         if (tempList.size() == nums.length){
-            list.add(new ArrayList<>(tempList));
+
+                list.add(new ArrayList(tempList));
         }
         for (int num : nums) {
             if (tempList.contains(num)) {
