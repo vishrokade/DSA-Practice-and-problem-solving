@@ -6,7 +6,7 @@ import java.util.Objects;
 public class SubsetOfArray {
     public static void main(String []args){
 
-        int[] arr = {11,2,19,7,9,27};
+        int[] arr = {1,2,3};
         List<List<Integer>> ans = subset(arr);
         //List<List<Integer>> ans = subsetWithoutDuplicate(arr);
 

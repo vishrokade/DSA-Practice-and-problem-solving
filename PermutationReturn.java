@@ -1,5 +1,6 @@
 import java.util.*;
-
+//https://leetcode.com/problems/permutation-in-string/
+// brute force solution not accepted time limit exceeded
 public class PermutationReturn {
     public static void main(String[] args){
 
