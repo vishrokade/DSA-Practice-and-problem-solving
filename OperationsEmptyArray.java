@@ -1,6 +1,6 @@
 import java.util.HashMap;
 import java.util.Map;
-
+//https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty/description/
 public class OperationsEmptyArray {
     public static void main(String[] args) {
         int[] nums ={2,3,3,2,2,4,2,3};
