@@ -1,11 +1,10 @@
 public class ShortestPolindrome {
     public static void main(String[] args) {
 
-        String v = "hsivishal";
+        String v = "sivishal";
         System.out.println(shortestPalindrome(v));
     }
-
-
+    
     static String shortestPalindrome(String s) {
             int i=0;
             int j=s.length()-1;
