@@ -1,12 +1,13 @@
 public class testCollage {
 
-    public static void main(String []args){
+    public static void main(String []args) {
 
         primeNo(34);
         factorial(20);
         fibonacci(10);
         starPattern(5);
         swap(20,10);
+
     }
 
     private static void swap(int a, int b) {
